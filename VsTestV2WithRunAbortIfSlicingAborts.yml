@@ -16,5 +16,6 @@ jobs:
       testSelector: 'testAssemblies'     
       testAssemblyVer2: '**/*StackOverflow*.dll'
       searchFolder: '$(System.DefaultWorkingDirectory)\bin\Debug\'
+      batchingBasedOnAgentsOption: 'customBatchSize'
       vsTestVersion: 'toolsInstaller'
-      diagnosticsEnabled: true
+      customBatchSizeValue: 2
